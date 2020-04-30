@@ -11,6 +11,7 @@ public class CLIArguments {
     @Parameter(
             required = true,
             descriptionKey = "KEYWORD",
+            validateWith = CLIKeyWordValidator.class,
             description = "KEYWORD"
     )
 
